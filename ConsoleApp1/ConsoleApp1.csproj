@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBD9CB4E-C709-43F9-AB8E-AEF277A7C1D8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ConsoleApp1.String.Employee</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Array\1D_Asn.cs" />
+    <Compile Include="Array\1D_Foreach.cs" />
+    <Compile Include="Array\2D_array.cs" />
+    <Compile Include="Array\2D_arr_input.cs" />
+    <Compile Include="Array\2D_Foreach.cs" />
+    <Compile Include="Array\2nd_smallest.cs" />
+    <Compile Include="Array\ASSI\Spilt.cs" />
+    <Compile Include="Array\Avg.cs" />
+    <Compile Include="Array\Duplicate.cs" />
+    <Compile Include="Array\EMP.cs" />
+    <Compile Include="Array\Frequency.cs" />
+    <Compile Include="Array\JaggedEX.cs" />
+    <Compile Include="Array\Max_n_Min.cs" />
+    <Compile Include="Array\odd_even_2m.cs" />
+    <Compile Include="Array\Even_no .cs" />
+    <Compile Include="Array\Neg_no.cs" />
+    <Compile Include="Array\Product.cs" />
+    <Compile Include="Array\Rainfall.cs" />
+    <Compile Include="Array\Reverse_1.cs" />
+    <Compile Include="Array\Search_No.cs" />
+    <Compile Include="Array\Unique.cs" />
+    <Compile Include="BANK.cs" />
+    <Compile Include="Base.cs" />
+    <Compile Include="Class_test.cs" />
+    <Compile Include="EMPLOYEE_Inher&amp;Polycs.cs" />
+    <Compile Include="file1.cs" />
+    <Compile Include="file2.cs" />
+    <Compile Include="Interface\Abstarct_Phonebook.cs" />
+    <Compile Include="Interface\ICustomer.cs" />
+    <Compile Include="Inheritance_Person.cs" />
+    <Compile Include="Interface\INT_2method.cs" />
+    <Compile Include="Interface\IPrinttable.cs" />
+    <Compile Include="Interface\IPrintable.cs" />
+    <Compile Include="Interface\Program.cs" />
+    <Compile Include="Movie.cs" />
+    <Compile Include="M_overloading.cs" />
+    <Compile Include="Names.cs" />
+    <Compile Include="Parameter _.cs" />
+    <Compile Include="practice\Class1.cs" />
+    <Compile Include="practice\demo1.cs" />
+    <Compile Include="practice\Prime_no.cs" />
+    <Compile Include="practice\Print_1to50.cs" />
+    <Compile Include="practice\REVcs.cs" />
+    <Compile Include="practice\REV_PALID.cs" />
+    <Compile Include="practice\Sum_even.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Ref.cs" />
+    <Compile Include="rev1.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="String\Employee.cs" />
+    <Compile Include="String\STR.cs" />
+    <Compile Include="String\String2.cs" />
+    <Compile Include="Student1.cs" />
+    <Compile Include="Date.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

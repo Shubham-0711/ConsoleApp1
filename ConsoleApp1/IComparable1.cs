@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Product
+    public class IComparable1
     {
         private int code;
         private string name;

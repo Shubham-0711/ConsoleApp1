@@ -53,12 +53,6 @@ namespace ConsoleApp1.String
             }
 
 
-
-
-
-
-
-
         }
     }
 }

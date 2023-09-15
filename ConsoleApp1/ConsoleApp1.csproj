@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.String.Employee</StartupObject>
+    <StartupObject>ConsoleApp1.StringDemos.ASSI.Duplicate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,8 +52,13 @@
     <Compile Include="Array\2D_arr_input.cs" />
     <Compile Include="Array\2D_Foreach.cs" />
     <Compile Include="Array\2nd_smallest.cs" />
+    <Compile Include="Array\ALT.cs" />
+    <Compile Include="Array\alternate.cs" />
+    <Compile Include="Array\ASSI\PRINT_zero.cs" />
     <Compile Include="Array\ASSI\Spilt.cs" />
     <Compile Include="Array\Avg.cs" />
+    <Compile Include="Array\Class2.cs" />
+    <Compile Include="Array\Class3.cs" />
     <Compile Include="Array\Duplicate.cs" />
     <Compile Include="Array\EMP.cs" />
     <Compile Include="Array\Frequency.cs" />
@@ -70,6 +75,18 @@
     <Compile Include="BANK.cs" />
     <Compile Include="Base.cs" />
     <Compile Include="Class_test.cs" />
+    <Compile Include="collection\Arr_List.cs" />
+    <Compile Include="collection\Class1.cs" />
+    <Compile Include="collection\grc coll\Emplloyee.cs" />
+    <Compile Include="collection\grc coll\Hash_1.cs" />
+    <Compile Include="collection\Player.cs" />
+    <Compile Include="collection\hash.cs" />
+    <Compile Include="collection\que.cs" />
+    <Compile Include="collection\St.cs" />
+    <Compile Include="collection\stack.cs" />
+    <Compile Include="D&amp;E\Acc_name.cs" />
+    <Compile Include="D&amp;E\Bank.cs" />
+    <Compile Include="D&amp;E\Student.cs" />
     <Compile Include="EMPLOYEE_Inher&amp;Polycs.cs" />
     <Compile Include="file1.cs" />
     <Compile Include="file2.cs" />
@@ -86,24 +103,45 @@
     <Compile Include="Parameter _.cs" />
     <Compile Include="practice\Class1.cs" />
     <Compile Include="practice\demo1.cs" />
+    <Compile Include="practice\MAX_ch.cs" />
     <Compile Include="practice\Prime_no.cs" />
     <Compile Include="practice\Print_1to50.cs" />
     <Compile Include="practice\REVcs.cs" />
     <Compile Include="practice\REV_PALID.cs" />
+    <Compile Include="practice\sum_Elment.cs" />
     <Compile Include="practice\Sum_even.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="IComparable1.cs" />
     <Compile Include="Ref.cs" />
     <Compile Include="rev1.cs" />
+    <Compile Include="Reverse_no.cs" />
     <Compile Include="Shape.cs" />
-    <Compile Include="String\Employee.cs" />
-    <Compile Include="String\STR.cs" />
-    <Compile Include="String\String2.cs" />
+    <Compile Include="StringDemos\Apppend.cs" />
+    <Compile Include="StringDemos\ASSI\cnt_v.cs" />
+    <Compile Include="StringDemos\ASSI\Duplicate.cs" />
+    <Compile Include="StringDemos\ASSI\find_.cs" />
+    <Compile Include="StringDemos\ASSI\freq_.cs" />
+    <Compile Include="StringDemos\ASSI\Longest_word.cs" />
+    <Compile Include="StringDemos\ASSI\reverse_.cs" />
+    <Compile Include="StringDemos\ASSI\Reverse_str.cs" />
+    <Compile Include="StringDemos\ASSI\rev_str.cs" />
+    <Compile Include="StringDemos\ASSI\Spilt.cs" />
+    <Compile Include="StringDemos\ASSI\Tog_ch.cs" />
+    <Compile Include="StringDemos\ASSI\valid_no.cs" />
+    <Compile Include="StringDemos\Employee.cs" />
+    <Compile Include="StringDemos\practice.cs" />
+    <Compile Include="StringDemos\STR.cs" />
+    <Compile Include="StringDemos\String2.cs" />
+    <Compile Include="StringDemos\string_b.cs" />
     <Compile Include="Student1.cs" />
     <Compile Include="Date.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Test\Max.cs" />
+    <Compile Include="Test\PLD.cs" />
+    <Compile Include="Test\rev_string.cs" />
+    <Compile Include="Test\sum_digit_str.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

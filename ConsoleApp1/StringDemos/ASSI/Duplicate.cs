@@ -20,7 +20,6 @@ namespace ConsoleApp1.StringDemos.ASSI
             for (int i = 0; i < str.Length; i++)
             {
                 int cnt = 1;
-
                 for (int j = i+1; j < str.Length-1; j++)
                 {
                   

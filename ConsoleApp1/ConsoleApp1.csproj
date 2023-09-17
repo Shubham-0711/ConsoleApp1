@@ -56,6 +56,7 @@
     <Compile Include="Array\alternate.cs" />
     <Compile Include="Array\ASSI\PRINT_zero.cs" />
     <Compile Include="Array\ASSI\Spilt.cs" />
+    <Compile Include="Array\ASSI\StaticMethods.cs" />
     <Compile Include="Array\Avg.cs" />
     <Compile Include="Array\Class2.cs" />
     <Compile Include="Array\Class3.cs" />
@@ -70,7 +71,7 @@
     <Compile Include="Array\Product.cs" />
     <Compile Include="Array\Rainfall.cs" />
     <Compile Include="Array\Reverse_1.cs" />
-    <Compile Include="Array\Search_No.cs" />
+    <Compile Include="Array\ASSI\Search_No.cs" />
     <Compile Include="Array\Unique.cs" />
     <Compile Include="BANK.cs" />
     <Compile Include="Base.cs" />
@@ -116,10 +117,14 @@
     <Compile Include="Reverse_no.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="StringDemos\Apppend.cs" />
+    <Compile Include="StringDemos\ASSI\Assign11RevWord.cs" />
+    <Compile Include="StringDemos\ASSI\Assign16Anagram.cs" />
+    <Compile Include="StringDemos\ASSI\Assign8.cs" />
     <Compile Include="StringDemos\ASSI\cnt_v.cs" />
     <Compile Include="StringDemos\ASSI\Duplicate.cs" />
     <Compile Include="StringDemos\ASSI\find_.cs" />
     <Compile Include="StringDemos\ASSI\freq_.cs" />
+    <Compile Include="StringDemos\ASSI\LongestWord.cs" />
     <Compile Include="StringDemos\ASSI\Longest_word.cs" />
     <Compile Include="StringDemos\ASSI\reverse_.cs" />
     <Compile Include="StringDemos\ASSI\Reverse_str.cs" />
@@ -127,6 +132,7 @@
     <Compile Include="StringDemos\ASSI\Spilt.cs" />
     <Compile Include="StringDemos\ASSI\Tog_ch.cs" />
     <Compile Include="StringDemos\ASSI\valid_no.cs" />
+    <Compile Include="StringDemos\Delegate1.cs" />
     <Compile Include="StringDemos\Employee.cs" />
     <Compile Include="StringDemos\practice.cs" />
     <Compile Include="StringDemos\STR.cs" />
